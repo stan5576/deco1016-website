@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Drawear</title>
+  <!-- CSS LINK -->
+<link rel="stylesheet" href="form.css"/>
+  <header>
+    <!-- logo -->
+        <div class="main">
+            <div class="logo">
+                <img src="img/LOGO.png">
+            </div>
+
+            <!-- navigation bar -->
+           <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>  
+            </nav>  
+        </div>
+     </header>
+</head>
+<body>
+  <h1></h1>
+
+  <main>
+
+    
+      <!-- form -->
+    <form class="siginform" name="signin" action="homepage.html" onsubmit="return validation4()" method="post">
+        <h2>Sign In</h2>
+        <br>
+        <div class="form-group4">
+          <label for="email">email</label>
+          <input type="text" id="email" name="email" placeholder="Enter your email here">
+          <br>
+          <div class="messages"></div>
+        </div>
+        <div class="form-group4">
+          <label for="password">password</label>
+          <input type="text" id="password" name="password" placeholder="Enter your password here">
+          <div class="messages"></div>
+        </div>
+        <br><br>
+        <p>    
+            <input type="submit" value="Next" name="Submit">
+            <input type="reset" value="Reset" name="Reset">   
+          </p>  
+
+      </form>
+      <!-- JavaScript Link -->
+      <script src = "script4.js"></script> 
+    
+  </main>
+</body>
+</html>
+
+     

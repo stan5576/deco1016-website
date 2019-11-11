@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- title -->
+  <title>Drawear</title>
+  <!-- CSS LINK -->
+<link rel="stylesheet" href="form.css"/>
+<script src = "script.js"></script> 
+  <header>
+        <div class="main">
+
+          <!-- logo -->
+            <div class="logo">
+                <img src="img/LOGO.png">
+            </div>
+
+          <!-- navigation bar -->
+           <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>  
+            </nav>  
+        </div>
+     </header>
+</head>
+<body>
+  <main>
+
+    
+    <!-- form -->
+    <form class="signupform2" name="signup2" action="homepage.html" onsubmit="return validation3()" method="GET">
+      <h2>Size Guide</h2>
+      <p>We'll use this information to suggest the right size and fit.</p>
+      <br>
+      <h3>Required Details</h3>
+      <div class="form-group3">
+        <label for="Dress Size">Dress Size</label>
+        <select id="dress size" name="dresssize">
+            <option value="">Choose dress size</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+      <div class="form-group3">
+        <label for="Top Size">Top Size</label>
+        <select id="top size" name="topsize">
+            <option value="">Choose top size</option>
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+        <div class="form-group3">
+        <label for="Pant Size">Pant Size</label>
+        <select id="pant size" name="pantsize">
+            <option value="">Choose pant size</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+      <br>
+      <h3>Optional Details</h3>
+      
+      <div class="form-group3">
+        <label for="Height">Height</label>
+        <select id="height" name="height">
+            <option value="">Choose height</option>
+            <option value="4">4 feet</option>
+            <option value="4.1">4 feet 1 inches</option>
+            <option value="4.2">4 feet 2 inches</option>
+            <option value="4.3">4 feet 3 inches</option>
+            <option value="4.4">4 feet 4 inches</option>
+            <option value="4.5">4 feet 5 inches</option>
+            <option value="4.6">4 feet 6 inches</option>
+            <option value="4.1">4 feet 7 inches</option>
+            <option value="4.2">4 feet 8 inches</option>
+            <option value="4.3">4 feet 9 inches</option>
+            <option value="4.4">4 feet 10 inches</option>
+            <option value="4.5">4 feet 11 inches</option>
+            <option value="4">5 feet</option>
+            <option value="4.1">5 feet 1 inches</option>
+            <option value="4.2">5 feet 2 inches</option>
+            <option value="4.3">5 feet 3 inches</option>
+            <option value="4.4">5 feet 4 inches</option>
+            <option value="4.5">5 feet 5 inches</option>
+            <option value="4.6">5 feet 6 inches</option>
+            <option value="4.1">5 feet 7 inches</option>
+            <option value="4.2">5 feet 8 inches</option>
+            <option value="4.3">5 feet 9 inches</option>
+            <option value="4.4">5 feet 10 inches</option>
+            <option value="4.5">5 feet 11 inches</option>
+            <option value="4">6 feet</option>
+            <option value="4.1">6 feet 1 inches</option>
+            <option value="4.2">6 feet 2 inches</option>
+            <option value="4.3">6 feet 3 inches</option>
+            <option value="4.4">6 feet 4 inches</option>
+            <option value="4.5">6 feet 5 inches</option>
+            <option value="4.6">6 feet 6 inches</option>
+            <option value="4.1">6 feet 7 inches</option>
+            <option value="4.2">6 feet 8 inches</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+      <div class="form-group3">
+        <label for="Waist">Waist</label>
+        <select id="waist" name="waist">
+            <option value="">Choose waist size</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+            <option value="20">20</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+        <div class="form-group3">
+        <label for="Bra Size">Bra Size</label>
+        <select id="bra size" name="bra size">
+            <option value="">Choose bra size</option>
+            <option value="8A">8A</option>
+            <option value="8B">8B</option>
+            <option value="8C">8C</option>
+            <option value="8D">8D</option>
+            <option value="10A">10A</option>
+            <option value="10B">10B</option>
+            <option value="10C">10C</option>
+            <option value="10D">10D</option>
+            <option value="12A">12A</option>
+            <option value="12B">12B</option>
+            <option value="12C">12C</option>
+            <option value="12D">12D</option>
+            <option value="14A">14A</option>
+            <option value="14B">14B</option>
+            <option value="14C">14C</option>
+            <option value="14D">14D</option>
+            <option value="16A">16A</option>
+            <option value="16B">16B</option>
+            <option value="16C">16C</option>
+            <option value="16D">16D</option>
+            <option value="18A">18A</option>
+            <option value="18B">18B</option>
+            <option value="18C">18C</option>
+            <option value="18D">18D</option>
+            <option value="20A">20A</option>
+            <option value="20B">20B</option>
+            <option value="20C">20C</option>
+            <option value="20D">20D</option>
+            <option value="22A">22A</option>
+            <option value="22B">22B</option>
+            <option value="22C">22C</option>
+            <option value="22D">22D</option>
+            <option value="24A">24A</option>
+            <option value="24B">24B</option>
+            <option value="24C">24C</option>
+            <option value="24D">24D</option>
+            <option value="26A">26A</option>
+            <option value="26B">26B</option>
+            <option value="26C">26C</option>
+            <option value="26D">26D</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+      <div class="form-group3">
+        <label for="Inseam">Inseam</label>
+        <select id="Inseam" name="Inseam">
+            <option value="">Choose Inseam size</option>
+            <option value="61">61</option>
+            <option value="66">66</option>
+            <option value="71">71</option>
+            <option value="76">76</option>
+            <option value="82">82</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+      <br>
+      <input type="submit" value="Next" name="Submit">
+      <input type="reset" value="Reset" name="Reset">  
+    </form>
+
+  </main>
+<!-- JavaScript Link -->
+  <script src="script3.js"></script>
+</script>
+
+</body>
+</html>

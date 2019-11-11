@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src = "script2.js"></script> 
+  <title>Drawear</title>
+  <!-- CSS LINK -->
+<link rel="stylesheet" href="form.css"/>
+  <header>
+
+    <!-- logo -->
+        <div class="main">
+            <div class="logo">
+                <img src="img/LOGO.png">
+            </div>
+
+            <!-- navigation bar -->
+           <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>  
+            </nav>  
+        </div>
+     </header>
+</head>
+<body>
+  <h1></h1>
+
+  <main>
+
+    
+    <!-- form -->
+    <form class="signupform2" name="signup2" action="form4.html" onsubmit="return validation2()" method="GET">
+      <h2>Personal Details</h2>
+      <br>
+      <div class="form-group2">
+        <label for="address">Address line 1</label>
+        <br/>
+        <input type="address" id="address" name="address1" placeholder="Address line 1">
+        <div class="messages"></div>
+      </div>
+      <div class="form-group2">
+        <label for="address">Address line 2</label>
+        <br/> 
+        <input type="address" id="address" name="address2" placeholder="Address line 2">
+        <div class="messages"></div>
+      </div>
+      <div class="form-group2">
+        <label for="postcode">Postcode <span>Optional</span></label>
+        <br/>
+        <input type="number" id="postcode" name="postcode" placeholder="Enter your postcode here">
+        <div class="messages"></div>
+      </div>
+      <div class="form-group2">
+        <label for="address">City</label>
+        <br/>
+        <input type="city" id="city" name="city" placeholder="city">
+        <div class="messages"></div>
+      </div>
+      <div class="form-group2">
+        <label for="address">State</label>
+        <br/>
+        <input type="state" id="state" name="state" placeholder="state">
+        <div class="messages"></div>
+      </div>
+      <div class="form-group2">
+        <label for="country">Country</label>
+        <br/>
+        <select id="country" name="country">
+          <option value="">Choose Country</option>
+          <option value="AF">Afghanistan</option>
+          <option value="AX">Åland Islands</option>
+          <option value="AL">Albania</option>
+          <option value="DZ">Algeria</option>
+          <option value="AS">American Samoa</option>
+          <option value="AD">Andorra</option>
+          <option value="AO">Angola</option>
+          <option value="AI">Anguilla</option>
+          <option value="AQ">Antarctica</option>
+          <option value="AG">Antigua and Barbuda</option>
+          <option value="AR">Argentina</option>
+          <option value="AM">Armenia</option>
+          <option value="AW">Aruba</option>
+          <option value="AU">Australia</option>
+          <option value="AT">Austria</option>
+          <option value="AZ">Azerbaijan</option>
+        </select>
+        <div class="messages"></div>
+      </div>
+      <br>
+      <p>    
+          <input type="submit" value="Next" name="Submit">
+          <input type="reset" value="Reset" name="Reset">   
+      </p>  
+
+  </main>
+
+  <!-- JavaScript Link -->
+  <script src="script.js"></script>
+</body>
+</html>

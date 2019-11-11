@@ -1,0 +1,160 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Novecento carved';
+}
+
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(img/clothes_rack.jpeg);
+}
+
+header {
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float:right;
+    list-style-type: none;
+    margin-top: 23px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+ul li.active a {
+    background-color: black;
+    color: white; 
+}
+
+.logo img{
+    float: left;
+    width:150px;
+    height: auto;
+    margin-top: 18px;
+    background-color: black;
+    padding: 10px 20px;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.brand {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-200%,-80%);
+}
+
+.brand h1{
+    text-align: center;
+}
+
+.buttons{
+    position: absolute;
+    text-align-last: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    border: 2px solid #000;
+    padding: 20px 80px;
+    background-color: (255,255,255);
+    color: #000;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+form {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    max-width: 700px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align:center;
+    color: white;
+}
+
+.form-group1 {
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px; 
+}
+
+.form-group2 {
+    width:100%;
+    
+    flex-wrap: wrap;
+    
+    margin-bottom: 10px;  
+
+}
+
+.form-group3 {
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px;  
+}
+
+label + *{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+
+
+
+input {
+    width:100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border: 0px;
+    border-radius: 30px;
+}
+
+select {
+    width:375px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 50%;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 30px;  
+}
+
+input[type=submit], input[type=reset] {
+    width:80px;
+    padding-right:15px;
+    text-align: center;
+  }
